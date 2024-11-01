@@ -6,48 +6,53 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="flex flex-col w-full h-full">
+  <!-- Navbar -->
   <div class="flex flex-row items-center justify-between px-36 py-10 w-full">
     <div class="font-bold font-sans text-lg">Demo Landing Page</div>
-    <div class="space-x-5">
+    <div class="space-x-5 mb-4 flex items-center justify-center">
         <a href="#" class="font-sans text-sm">About Us</a>
         <a href="#" class="font-sans text-sm">Profile</a>
         <a href="#" class="font-sans text-sm">Team</a>
         <a href="#" class="font-sans text-sm">Contact</a>
-        <a href="#" class="border-[1px] border-black text-sm px-6 py-2 rounded-full">Sign in </a>
+        <a href="#" class="flex border-[1px] border-black text-sm px-6 py-2 rounded-full">Sign in </a>
     </div>
 </div>
 
+<!-- Section 1 -->
+<div class="flex w-full">
+  <!-- right container -->
 <div class="flex flex-col mt-20">
-    <div class="flex mx-36 flex-col">
+  <div class=" flex mx-36 flex-col">
     <h1 class="text-4xl mb-2 w-[350px] font-semibold">Smart Digital Agency For Your Business To Succeed</h1>
-    <div class="flex mb-32 bg-black w-44 h-14 p-3 text-white font-semibold items-center justify-center rounded-full">
-    <a href="#" >Get early access</a> 
+    <a href="#" class="bg-black flex mb-24 w-44 h-14 p-3 text-white font-semibold items-center justify-center rounded-full" >Get early access</a> 
     </div>
-    </div>
+
     
-    <div class="absolute mt-72 mx-32 flex flex-col bg-red-600 p-7 w-44 h-36 items-center justify-center rounded-2xl"><span class="font-sans text-white text-sm">Total clients</span> 
-    <span class="font-semibold text-white text-3xl">5000+</span>
-    </div>
-    <div class="flex self-start items-center justify-center">
-        <div class="flex flex-col bg-black p-7 h-40 w-[450px] rounded-tr-2xl"><span class="mr-8 rounded-r-2xl font-semibold text-white text-4xl self-end">54</span>
-        <span class="font-sans self-end text-white text-sm">Daily <br/> new clients</span>
+    <div class="flex relative">
+      <div class="absolute mx-32 flex flex-col bg-red-600 p-7 w-44 h-36 items-center justify-center rounded-2xl">
+        <span class="font-sans mr-5 text-white text-sm">Total clients</span> 
+        <span class="font-semibold text-white text-3xl">5000+</span>
         </div>
-        <div class="flex flex-col bg-red-600 p-7 mt-7 rounded-tr-2xl"><span class="font-semibold text-white text-3xl">2.5k</span>
-        <span class="font-sans text-white text-sm" >263 contributors <br/> in the last year</span>
-        </div>
-        </div>
-    </div>
-    
-    <div class="absolute -bottom-3 flex right-10 items-center justify-center">
-        <img width="500px" height="500px" src="./images/happy.png" alt="image"/>
-        <div class="w-5 flex h-5 bg-red-600 items-center justify-center mt-20 rounded-full p-5"></div>
-        <div class="w-36 flex h-36 bg-red-600 items-center justify-center mr-10 rounded-full p-5">
-            <span class="text-white font-semibold" >Explore <br/> our Services</span>
-        </div>
-    </div>
-</div>
+      <div class="flex items-center justify-center">
+          <div class="flex flex-col bg-black p-7 h-40 w-[450px] rounded-tr-2xl"><span class="mr-8 rounded-r-2xl font-semibold text-white text-4xl self-end">54</span>
+          <span class="font-sans self-end text-white text-sm">Daily <br/> new clients</span>
+          </div>
+          <div class="flex flex-col bg-red-600 p-7 mt-7 rounded-tr-2xl"><span class="font-semibold text-white text-3xl">2.5k</span>
+          <span class="font-sans text-white text-sm" >263 contributors <br/> in the last year</span>
+          </div>
+          </div>  
   </div>
+</div>
+
+<!-- left container -->
+ <div class=" absolute bottom-0 flex flex-row right-10 items-center justify-center">
+  <img width="400px" height="400px" src="./images/happy.png" alt="image"/>
+  <div class="flex items-center mb-28">
+    <div class="w-3 flex h-3 bg-red-600 items-center justify-center mt-20 rounded-full p-5"></div>
+    <div class="w-36 flex h-36 bg-red-600 items-center justify-center mr-10 rounded-full p-5">
+    <span class="text-white font-semibold" >Explore <br/> our Services</span>
+    </div>
+  </div>
+</div>
 </body>
 </html>
